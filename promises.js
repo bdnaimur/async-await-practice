@@ -67,10 +67,5 @@ createPostThree({title: "Post three", body: "This is post three"})
 .then(createPostFive)
 .then(getPosts)
 .catch(err =>{console.log(err);});
-// createPostThree({title: "Post three", body: "This is post three"},()=>{
-//     createPostFour({title: "Post four", body: "This is post four"},()=>{
-//         createPostFive({title: "Post five", body: "This is post five"},getPosts)
-//     })
-// })
 
 
